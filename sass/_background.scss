@@ -1,0 +1,74 @@
+// primary          #efebe9
+// primary light    #ffffff
+// primary dark     #bdb9b7
+
+// secondary        #ff5722
+// secondary light  #ff8a50
+// secondary dark   #c41c00
+
+#left-bg {
+  min-width: 60%;
+  min-height: 100%;
+
+  position: absolute;
+  left: 0px;
+  top: 0px;
+
+  background-image: url('../img/jaredd-craig-744902-unsplash.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+}
+
+#right-bg {
+  width: 60%;
+  max-height: 85%;
+
+  overflow-x: hidden;
+  overflow-y: scroll;
+
+  position: relative;
+  top: 50%;
+  left: 35%;
+  transform: translateY(-50%);
+
+  background-color: #a1887f;
+  // opacity: 0.85;
+
+  box-shadow: 0px 0px 6px 2px rgba(0, 0, 0, 0.4);
+}
+
+#right-bg::-webkit-scrollbar {
+  // width: 0.8em;
+  width: 0;
+  // background-color: #cfd8dc;
+}
+
+#right-bg::-webkit-scrollbar-track {
+  background-color: #eeeeee;
+}
+
+#right-bg::-webkit-scrollbar-thumb {
+  border-radius: 2em;
+  background-color: #e0e0e0;
+  outline: 1px solid #bdbdbd;
+}
+
+#photo-cred {
+  color: #efdcd5;
+  
+  position: absolute;
+  bottom: 12;
+  left: 12;
+
+  font-size: 12px;
+}
+
+#photo-cred a {
+  color: #efdcd5;
+  text-decoration: none;
+}
+
+#photo-cred a:hover {
+  text-decoration: underline;
+}

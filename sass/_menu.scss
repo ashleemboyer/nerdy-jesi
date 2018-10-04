@@ -1,0 +1,28 @@
+#title {
+  width: fit-content;
+
+  padding: 10px;
+  margin: 10px;
+  color: #efdcd5;
+
+  border-top: 1px solid #efdcd5;
+  border-bottom: 1px solid #efdcd5;
+
+  font-size: 3rem;
+}
+
+a.menu {
+  display: block;
+
+  padding: 10px;
+
+  color: #efdcd5;
+  text-decoration: none;
+
+  font-size: 1.5rem;
+}
+
+a.menu:hover {
+  text-decoration: underline;
+  cursor: pointer;
+}

@@ -1,0 +1,42 @@
+div.intro-card {
+  position: relative;
+
+  min-height: 400px;
+
+  margin-right: 20px;
+  margin-bottom: 20px;
+  margin-left: 20px;
+
+  padding: 32px;
+
+  background-color: #efdcd5;
+
+  box-shadow: 0px 0px 6px 2px rgba(0, 0, 0, 0.4);
+}
+
+h1.card-title {
+  font-family: 'Merriweather', 'serif';
+}
+
+h3.card-date {
+  padding-bottom: 12px;
+  border-bottom: 1px solid #c41c00;
+  margin-bottom: 12px;
+
+  font-family: 'Open Sans', 'sans-serif';
+  font-weight: 400;
+  font-style: italic;
+}
+
+p.card-content {
+  margin-bottom: 12px;
+
+  font-family: 'Open Sans', 'sans-serif';
+  font-weight: 400;
+  line-height: 2rem;
+
+  overflow: hidden;
+  display: -webkit-box;
+  -webkit-line-clamp: 7;
+  -webkit-box-orient: vertical;
+}
